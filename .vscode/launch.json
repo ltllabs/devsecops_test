@@ -2,11 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Package",
-      "type": "go",
+      "type": "java",
+      "name": "Launch Java Program",
       "request": "launch",
-      "mode": "auto",
-      "program": "src"
+      "mainClass": "com.example.testing.App"
     }
   ]
 }
