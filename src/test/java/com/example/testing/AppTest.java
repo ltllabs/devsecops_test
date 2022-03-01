@@ -1,6 +1,6 @@
 package com.example.testing;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -13,6 +13,10 @@ public class AppTest {
    */
   @Test
   public void shouldAnswerWithTrue() {
-    assertTrue(true);
+    int a = 9;
+    int b = 12;
+    int c = a + b;
+
+    assertEquals(c, App.sum(a, b));
   }
 }

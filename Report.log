@@ -7,7 +7,7 @@
     1 Add the repositories of intrest (they must have been already initialised)
     1 Go in the repo settings and verify that the default branch matches the one of your repository
     1 Also in the settings, in the extras section, go to the badges tab. There you will find the code to embed the badges in the README
-
+    1 In the test coverage section, copy the test reported id, and add it as a secret in github using the name `TEST_REPORTER_ID`
 1 Snyk
     1 go to https://snyk.io and sign up
     1 add the repositories to monitor and wait for the first analyis to finish
