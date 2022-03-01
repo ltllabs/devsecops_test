@@ -7,7 +7,19 @@
     1 Add the repositories of intrest (they must have been already initialised)
     1 Go in the repo settings and verify that the default branch matches the one of your repository
     1 Also in the settings, in the extras section, go to the badges tab. There you will find the code to embed the badges in the README
-    
+
 1 Snyk
     1 go to https://snyk.io and sign up
-    1 add the repositories to monitor
+    1 add the repositories to monitor and wait for the first analyis to finish
+    1 change the badges snippets in the README
+
+1 LGTM
+    1 go to https://lgtm.com/
+    1 sign up with github
+    1 add the project (at the time of writing, this was called 'follow' in their interface)
+    1 wait for the first analyis to finish (takes a while)
+
+1 Foresight
+    1 Sign up https://start.thundra.io/signup
+    1 Choose the product Foresight
+    1 Connect the repository
