@@ -1,0 +1,7 @@
+1 Create repo on github (public)
+1 Go to https://codeclimate.com/quality/pricing/ and sign up with github (open source plan)
+1 Authorize for open source repositories
+1 Grant codeclimate access to your public github repos
+1 Continue the process until you get to the page https://codeclimate.com/github/repos/new
+1 Add the repositories of intrest (they must have been already initialised)
+1 Go in the repo settings and verify that the default branch matches the one of your repository
