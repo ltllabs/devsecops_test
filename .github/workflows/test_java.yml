@@ -21,6 +21,7 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package
+      
     - name: Push coverage to Code Climate
       uses: paambaati/codeclimate-action@v3.0.0
       env:
@@ -30,5 +31,3 @@ jobs:
           coverageCommand: mvn clean verify
           coverageLocations: |
             ${{github.workspace}}target/site/jacoco/jacoco.xml:jacoco
-
-
