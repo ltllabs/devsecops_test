@@ -17,6 +17,10 @@ Exploring Github CI for security
 
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ltllabs/devsecops_test.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ltllabs/devsecops_test/context:python)
 
+## Codecov
+
+[![codecov](https://codecov.io/gh/ltllabs/devsecops_test/branch/master/graph/badge.svg?token=HPTFA5L86R)](https://codecov.io/gh/ltllabs/devsecops_test)
+
 ## Thundra Foresight
 [![Foresight Docs](https://foresight.service.thundra.io/public/api/v1/badge/test?repoId=36ef82e5-825a-4fd8-b7dd-e0720539dac0)](https://foresight.docs.thundra.io/)
 [![Foresight Docs](https://foresight.service.thundra.io/public/api/v1/badge/success?repoId=36ef82e5-825a-4fd8-b7dd-e0720539dac0)](https://foresight.docs.thundra.io/)
