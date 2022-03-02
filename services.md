@@ -1,8 +1,10 @@
 ## Code quality
 - Code Climate
+- Github codeql
 ## Vulnerabilities
 - Snyk
 - LGTM
+- Github dependabot
 ## Coverage
 The main discriminator between services is which type of reports they support out-of-the-box
     - Codecov 
@@ -19,3 +21,6 @@ The main discriminator between services is which type of reports they support ou
             - Jest
         - Python
             - PyTest
+
+List of other actions available on github
+https://github.com/ltllabs/devsecops_test/actions/new?category=security

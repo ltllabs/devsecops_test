@@ -31,3 +31,8 @@
     1 Sign up on https://codecov.io
     1 Register the repository
     1 If the repository is not public, create a CODECOV_TOKEN secret in the github repo
+
+1 Github dependabot and code scanning alerts
+    1 Go to the security tab in your repo
+    1 Enable dependabot alerts
+    1 Enable code scanning
