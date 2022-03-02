@@ -25,3 +25,13 @@ Exploring Github CI for security
 [![Foresight Docs](https://foresight.service.thundra.io/public/api/v1/badge/test?repoId=36ef82e5-825a-4fd8-b7dd-e0720539dac0)](https://foresight.docs.thundra.io/)
 [![Foresight Docs](https://foresight.service.thundra.io/public/api/v1/badge/success?repoId=36ef82e5-825a-4fd8-b7dd-e0720539dac0)](https://foresight.docs.thundra.io/)
 [![Foresight Docs](https://foresight.service.thundra.io/public/api/v1/badge/utilization?repoId=36ef82e5-825a-4fd8-b7dd-e0720539dac0)](https://foresight.docs.thundra.io/)
+
+
+# Additional notes for branch protection
+Github offers branch protection features that help avoiding that someone tries to push to protected branches or forces a push
+
+1. Go to the repository's settings tab -> branches
+1. Add a branch protection rule and review its settings to match the needs of your use-case
+
+# TODOs
+Another possible addition is git hooks, which can run automatic actions before developers even try to push the code to the repo (they can be skipped, though)
