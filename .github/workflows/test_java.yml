@@ -8,25 +8,26 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3.0.0
+
     - name: Set up JDK 17
-      uses: actions/setup-java@v2
+      uses: actions/setup-java@v3.0.0
       with:
         java-version: '17'
         distribution: 'adopt'
         cache: maven
+
     - name: Build with Maven
-      run: mvn -B package
+      run: mvn -B clean package
+  
     - name: Push coverage to Code Climate
       uses: paambaati/codeclimate-action@v3.0.0
       env:
           CC_TEST_REPORTER_ID: ${{ secrets.TEST_REPORTER_ID }}
           JACOCO_SOURCE_PATH: "${{github.workspace}}/src/main/java"
-      with:
-        coverageCommand: mvn clean verify
-        coverageLocations: |
-          ${{github.workspace}}target/site/jacoco/jacoco.xml:jacoco
+        with:
+          coverageCommand: mvn clean verify
+          coverageLocations: |
+            ${{github.workspace}}/target/site/jacoco/jacoco.xml:jacoco
