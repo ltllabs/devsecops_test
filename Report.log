@@ -24,3 +24,8 @@
     1 Choose the product Foresight
     1 Connect the repository
     1 Refer to [this page](https://foresight.docs.thundra.io/core-concepts/dynamically-generated-test-stats-badges-on-your-readmes) for how to get the badges
+
+1 Codecov
+    1 Sign up on https://codecov.io
+    1 Register the repository
+    1 If the repository is not public, create a CODECOV_TOKEN secret in the github repo
