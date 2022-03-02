@@ -21,18 +21,17 @@
     1 add the project (at the time of writing, this was called 'follow' in their interface)
     1 wait for the first analyis to finish (takes a while)
 
-1 Foresight
-    1 Sign up https://start.thundra.io/signup
-    1 Choose the product Foresight
-    1 Connect the repository
-    1 Refer to [this page](https://foresight.docs.thundra.io/core-concepts/dynamically-generated-test-stats-badges-on-your-readmes) for how to get the badges
-
 1 Codecov
     1 Sign up on https://codecov.io
     1 Register the repository
     1 If the repository is not public, create a CODECOV_TOKEN secret in the github repo
 
-1 Github dependabot and code scanning alerts
-    1 Go to the security tab in your repo
-    1 Enable dependabot alerts
-    1 Enable code scanning
+1 Github dependabot and codeql
+    1 Go to the security tab in the github repo and enable both of them
+      (for codeql, you may need to modify the script adding your own build step)
+
+1 Foresight (in this repo, it is basically useless since we do not send them the test results)
+    1 Sign up https://start.thundra.io/signup
+    1 Choose the product Foresight
+    1 Connect the repository
+    1 Refer to [this page](https://foresight.docs.thundra.io/core-concepts/dynamically-generated-test-stats-badges-on-your-readmes) for how to get the badges
