@@ -12,6 +12,8 @@
     1 go to https://snyk.io and sign up
     1 add the repositories to monitor and wait for the first analyis to finish
     1 change the badges snippets in the README
+    1 Go to https://app.snyk.io/org/YOUR-ACCOUNT-NAME/manage/integrations/github
+      and check that the settings are correct for your use-case
 
 1 LGTM
     1 go to https://lgtm.com/
