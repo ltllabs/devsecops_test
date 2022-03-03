@@ -21,6 +21,20 @@ Exploring Github CI for security
 
 [![codecov](https://codecov.io/gh/ltllabs/devsecops_test/branch/master/graph/badge.svg?token=HPTFA5L86R)](https://codecov.io/gh/ltllabs/devsecops_test)
 
+## Sonarcloud
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ltllabs_devsecops_test&metric=bugs)](https://sonarcloud.io/summary/new_code?id=ltllabs_devsecops_test)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=ltllabs_devsecops_test&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=ltllabs_devsecops_test)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=ltllabs_devsecops_test&metric=coverage)](https://sonarcloud.io/summary/new_code?id=ltllabs_devsecops_test)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=ltllabs_devsecops_test&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=ltllabs_devsecops_test)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=ltllabs_devsecops_test&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=ltllabs_devsecops_test)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=ltllabs_devsecops_test&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=ltllabs_devsecops_test)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ltllabs_devsecops_test&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ltllabs_devsecops_test)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=ltllabs_devsecops_test&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=ltllabs_devsecops_test)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=ltllabs_devsecops_test&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=ltllabs_devsecops_test)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=ltllabs_devsecops_test&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=ltllabs_devsecops_test)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=ltllabs_devsecops_test&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=ltllabs_devsecops_test)
+
 ## Thundra Foresight
 [![Foresight Docs](https://foresight.service.thundra.io/public/api/v1/badge/test?repoId=36ef82e5-825a-4fd8-b7dd-e0720539dac0)](https://foresight.docs.thundra.io/)
 [![Foresight Docs](https://foresight.service.thundra.io/public/api/v1/badge/success?repoId=36ef82e5-825a-4fd8-b7dd-e0720539dac0)](https://foresight.docs.thundra.io/)
